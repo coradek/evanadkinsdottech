@@ -10,19 +10,23 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+'''Static website: Flask for testing purposes only.
+Be sure changes made to templates/index.html are also made in static/index.html
 
-# Upload page
-@app.route('/WildLifeID')
-def wildlifeid():
-    pass
-    # return render_template('blog.html')
+cp templates/index.html static/'''
 
-
-
-@app.route('/Blog')
-def blog():
-    pass
-    # return render_template('upload.html')
+# # Upload page
+# @app.route('/WildLifeID')
+# def wildlifeid():
+#     pass
+#     # return render_template('blog.html')
+#
+#
+#
+# @app.route('/Blog')
+# def blog():
+#     pass
+#     # return render_template('upload.html')
 
 
 
